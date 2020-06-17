@@ -1,0 +1,155 @@
+.solidario-container {
+  width: 100%;
+  max-width: 1180px;
+  padding: 0 30px;
+  margin: 32px auto;
+}
+
+.solidario-container header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.solidario-container header p {
+  color: #737380;
+}
+
+.solidario-container header span {
+  font-size: 20px;
+  margin-left: 24px;
+}
+
+.solidario-container header img {
+  height: 200px;
+}
+
+.solidario-container header a {
+  width: 260px;
+  margin-left: auto;
+  margin-top: 0;
+  opacity: 0.8;
+}
+
+.solidario-container header #left{
+  margin: 0 20px 0 0;
+  width: 70px;
+}
+
+.solidario-container header a {
+  border: none;
+}
+.solidario-container header .power {
+  height: 50px;
+  width: 50px;
+  border-radius: 4px;
+  border: 1px solid #dcdce6;
+  background: transparent;
+  margin-left: 16px;
+  transition: border-color 0.2s;
+}
+
+.solidario-container h1 {
+  margin-top: 40px;
+  margin-bottom: 35px;
+}
+
+.solidario-container h1 b {
+  font-weight: 200px;
+  color: #41414d;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.solidario-container .description {
+  color: #41414d;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.solidario-container ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 24px;
+  list-style: none;  
+}
+
+.solidario-container ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+
+  background: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.solidario-container ul li strong, .solidario-container ul li p {
+  display: block;
+  margin-bottom: 16px;
+  color: #41414d;
+  
+  font-size: 18px;
+}
+
+.solidario-container ul li p + strong {
+  margin-top: 32px;
+}
+
+.solidario-container ul li p {
+  color: #737380;
+  line-height: 21px;
+  font-size: 18px;
+}
+
+.column-left {
+  width: 100%;
+}
+
+
+.column-rigth  p.title, .column-rigth  p.text {
+  margin: 0 0 25px;
+  font-size: 25px; 
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+}
+
+.column-rigth  p.text {
+  font-size: 20px;
+  margin-top: 30px;
+  color: #c1c1c1;  
+  font-weight: 400;
+}
+
+.column-rigth  .button{
+  opacity: 0.7;
+  height: 50px;
+  width: 80%;  
+  
+  color: #000;
+  background: linear-gradient(180deg,#fff, rgba(73, 143, 73, 0.486));
+  border: 1px solid rgba(0, 128, 0, 0.2); 
+
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.column-rigth  .button:hover {
+  opacity: 1;
+  color: #000;
+  text-shadow: #fff 2px 2px;
+}
+
+ul li {
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 2px;
+}

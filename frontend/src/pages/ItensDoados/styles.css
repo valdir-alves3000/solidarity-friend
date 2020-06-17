@@ -1,0 +1,10 @@
+.section .section-top {
+  height: 150px;
+  margin: 0 20px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 100, 0.2) 2px 2px;
+  border: 1px rgb(220, 220, 243) solid;
+  border-radius: 0 0 20px;
+  background: linear-gradient(circle,#fff, rgb(220, 220, 243),#fff, rgb(220, 220, 243));
+ 
+}

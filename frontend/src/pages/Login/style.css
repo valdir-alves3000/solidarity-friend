@@ -1,0 +1,80 @@
+.login_container {    
+  width: 100%;
+  max-width: 1120px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+
+  
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoimg {
+  width: 596px;
+  height: 574px;
+  border-radius: 8px;
+  background-size: cover;
+  background-image: url('../../assets/solidariedade.png');
+  
+}
+
+.logoimg h1, .logoimg h2, .logoimg h5{
+  text-align: center;
+  color: #444;  
+  margin-top: 28px;
+}
+.logoimg h5 {
+  position: relative;
+  top: 320px;
+  font-size: 20px;
+  
+  color: #41414d;
+}
+
+.logoimg .button {
+  position: relative;
+  left: 50%;  
+  top: 320px;
+  transform: translate(-50%, 0%);
+  bottom: 0;
+  color: black;
+  width: 300px;
+  background-color: rgba(50, 24, 58, 0.2); 
+  transition:  background-color .8s; 
+}
+
+.logoimg .button:hover {
+  background-color: rgba(50, 24, 58, 0.5);
+} 
+
+.login_container section.form {
+  width: 100%;
+  max-width: 350px;
+  margin-right: 30px;
+}
+
+.login_container form {
+  margin-top: 100px;
+}
+
+.login_container form h1 {
+  font-size: 32px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.login_container section.form form a {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  color: #41414d;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.login_container section.form form a:hover {
+  color:#222;
+}

@@ -1,0 +1,51 @@
+.section .section-top {  
+  height: 150px;
+  margin: 0 20px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 100, 0.2) 2px 2px;
+  border: 1px rgb(220, 220, 243) solid;
+  border-radius: 0 0 20px;
+  background: linear-gradient(circle,#fff, rgb(220, 220, 243),#fff, rgb(220, 220, 243));
+ 
+}
+
+.section-top h2 {
+  color: #222;
+  border-bottom: 1px solid #000;
+  padding-bottom: 50px;
+}
+
+.cad-list {
+  
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  border: 1px rgb(220, 220, 243) solid;
+}
+
+.cad-list h2 {
+  width: 25%;
+  text-align: center;
+}
+
+#list-itens  {
+  display: block;
+}
+#list-itens li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  height: 10px;
+  border-radius: 8px ;
+  background: #f1f1f5;
+}
+
+#list-itens li p {
+  width: 20%;
+  text-align: center;
+}
+
+#list-itens li p + p {
+  border-left: 1px solid #aeaeae;
+}
