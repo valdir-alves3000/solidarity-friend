@@ -6,7 +6,6 @@
   "scripts": {
     "start": "nodemon src/index.js"
   },
-  
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -17,7 +16,7 @@
     "express": "^4.17.1",
     "knex": "^0.20.13",
     "react-router-dom": "^5.2.0",
-    "sqlite3": "^4.1.1"
+    "sqlite3": "^4.2.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"

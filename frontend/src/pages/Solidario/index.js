@@ -50,13 +50,13 @@ export default function Solidario() {
 
           <li key={campanha.id}>
             <div className="column-left">
-              <strong>INSTITUIÇÂO: </strong>
+              <strong>INSTITUIÇÃO: </strong>
               <p>{campanha.name}</p>
 
               <strong>Ação: </strong>
               <p>{campanha.title}</p>
 
-              <strong >DESCRIÇÂO: </strong>
+              <strong >DESCRIÇÃO: </strong>
               <p id="desc">{campanha.description} </p>
 
               <strong>Valor: </strong>

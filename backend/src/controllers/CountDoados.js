@@ -10,7 +10,6 @@ module.exports = {
       .where('ong_id', ong_id);
       //.select('*')      
       
-console.log(itens);
 
     const result = itens['count(`ong_id`)'];
 
@@ -71,7 +70,7 @@ console.log(itens);
 
   async doacoesRecebidas(request, response) {
     const ong_id = request.headers.authorization;
-    console.log(ong_id);
+    
     try {
       const [total] = await connection('doacoes_recebidas').count('ong_id').where('ong_id', ong_id);
       const result = total['count(`ong_id`)'];

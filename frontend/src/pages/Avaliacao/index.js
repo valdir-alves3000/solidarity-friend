@@ -147,7 +147,7 @@ export default function Avaliardoacoes() {
     <div className="container">
       <div className="header">
         <div className="top">
-          <p>Bem vinda</p>
+          <p>Bem vindo</p>
           <h1>{ongName}</h1>
         </div>
 
@@ -160,7 +160,7 @@ export default function Avaliardoacoes() {
       </div>
       <div className="section">
         <div className="section-top">
-          <h2>Lista de Instituições</h2>
+          <h2>Lista de Avaliações</h2>
         </div>
         <div className="home-list">
           <div className="cad-list">

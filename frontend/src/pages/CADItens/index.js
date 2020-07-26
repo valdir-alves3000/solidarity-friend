@@ -33,7 +33,7 @@ export default function CADItens() {
       <div className="header">
 
         <div className="top">
-          <p>Bem vinda</p>
+          <p>Bem vindo</p>
           <h1>{ongName}</h1>
         </div>
 
