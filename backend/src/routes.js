@@ -13,7 +13,15 @@ const ItensDoadosController = require('./controllers/ItensDoadosController');
 const DoacoesRecebidas = require('./controllers/DoacoesRecebidas');
 const AvaliarDoacoes = require('./controllers/AvaliarDoacoes');
 
+//transacões
+const Transactions = require('./controllers/Transactions');
+
 const routes = express.Router();
+
+//transações
+routes.post('/transactions', Transactions.create);
+routes.get('/transactions', Transactions.index);
+routes.delete('/transactions', Transactions.delete);
 
 routes.post('/cadItensDoados', ItensDoadosController.create);
 routes.get('/cadItensDoados', ItensDoadosController.index);
@@ -55,5 +63,7 @@ routes.delete('/profile', ProfileController.delete);
 routes.post('/campanhas', CampanhaController.create);
 routes.get('/campanhas', CampanhaController.index);
 routes.delete('/campanhas', CampanhaController.delete);
+
+
 
 module.exports = routes;
