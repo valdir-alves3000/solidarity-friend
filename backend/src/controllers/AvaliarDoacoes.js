@@ -1,6 +1,7 @@
 const crypto = require('crypto');
 const connection = require('../database/connection');
 
+
 module.exports = {
   async indexExat(request, response) {
     const id = request.headers.authorization;

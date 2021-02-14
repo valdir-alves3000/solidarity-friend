@@ -8,6 +8,7 @@ module.exports = {
       .where({ id: id, password: password })
       .select('name')
       .first();
+      
 
     if (!ong) {
       return response.status(400).json({ error: 'Usuário ou senha incorretos.' });
